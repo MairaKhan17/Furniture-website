@@ -1,0 +1,96 @@
+body {
+    color: white;
+    background-color: dimgrey;
+}
+.btn  {
+    background-color: red !important;
+    color: white !important;
+}
+.first-section {
+    height: 700px;
+    background-image: url(Assets/background\ image.jpeg);
+}
+.main-information {
+    text-align: center;
+    margin-top: 200px;
+}
+#email-input {
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 350px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding-left: 15px;
+   color: white;
+}
+.second-section {
+    margin-top: 10px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.third-section {
+    margin-top: 10px;
+    padding-left: 160px;
+    padding-right: 150px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.fourth-section {
+    margin-top: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.fifth-section {
+    margin-top: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.accordion-button {
+    font-size: 25px !important;
+    color: white;
+    background-color: gray;
+}
+.accordion-item {
+    background-color: gray;
+}
+.accordion-body {
+    color: white;
+    font-size: 22px;
+}
+.accordion {
+    width: 1000px;
+    margin: 0px auto;
+}
+.seventh-section {
+    margin-top: 10px;
+    height: 400px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li {
+    list-style-type: none;
+    padding-top: 20px;
+}
+.seventh-section>p {
+    margin-left: 150px;
+    padding-top: 80px;
+}
